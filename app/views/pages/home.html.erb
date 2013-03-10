@@ -1,13 +1,38 @@
-<div class="center hero-unit">
-  <h1>Welcome to the Sample App</h1>
-
-  <h2>
-    This is the home page for the
-    <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
-  </h2>
-
-  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+<div class="container">
+	<div class="row">
+		<div class="span2">
+			a
+		</div>
+		<div class="span8 profileWrapper">
+			<div class="row">
+				<div class="span8 profileHeader">
+					<img class="clip" src="assets/clip.png" />
+					<img class="profilePic" src="assets/joel.png" />
+					<h1 class="gabriela">Joel Tan</h1>
+					<span>Rookie Design Enthusiast</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span8 profileBody">
+					<span class="gabriela">I love simplicity and beautiful things.</span>
+					<ul>
+			            <li><a class="sampleSite" target="_blank" href="http://www.squilio.com"><img src="assets/squilio.png" /></a></li>
+			            <li><a class="sampleSite" target="_blank" href="http://www.adveraspa.com"><img src="assets/advera.png" /></a></li>
+			            <li><a class="sampleSite" target="_blank" href="http://www.kollection.me"><img src="assets/kollection.png" /></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span8 profileFooter">
+					<ul class="social">
+			            <li><a class="facebook" href="https://www.facebook.com/jaielhaevin">Facebook</a></li>
+			            <li><a class="twitter" href="https://twitter.com/joel_tan_86">Twitter</a></li>
+			            <li><a class="linkedin" href="http://www.linkedin.com/pub/joel-tan/32/40a/375">Linkedin</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="span2">
+		</div>
+	</div>
 </div>
-
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
